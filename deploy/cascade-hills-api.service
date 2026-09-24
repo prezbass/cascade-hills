@@ -1,0 +1,15 @@
+[Unit]
+Description=Cascade Hills Website Contact API
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/cascade-hills
+ExecStart=/usr/bin/doppler run --project cascade-hills-web --config prd -- /usr/bin/node /opt/cascade-hills/server/server.js
+Restart=on-failure
+RestartSec=5
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target
