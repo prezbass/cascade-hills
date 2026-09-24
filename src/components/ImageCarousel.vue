@@ -2,10 +2,16 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
 const slides = [
-  { src: '/studio-01.jpg', alt: 'Cascade Hills studio', label: 'The studio' },
-  { src: '/studio-02.jpg', alt: 'Cascade Hills recording space', label: 'The room' },
-  { src: '/studio-03.jpg', alt: 'Recording equipment at Cascade Hills', label: 'The tools' },
+  { src: '/studio-01.jpg', alt: 'Bass guitar at Cascade Hills', label: 'The instruments' },
+  { src: '/studio-02.jpg', alt: 'Recording session at Cascade Hills', label: 'The session' },
+  { src: '/studio-03.jpg', alt: 'Live room at Cascade Hills', label: 'The live room' },
+  { src: '/studio-04.jpg', alt: 'Control room at Cascade Hills', label: 'The control room' },
+  { src: '/studio-05.jpg', alt: 'Acoustic guitar at Cascade Hills', label: 'The guitars' },
+  { src: '/studio-06.jpg', alt: 'Live showcase performance', label: 'The performance' },
+  { src: '/studio-07.jpg', alt: 'Recording studio control room', label: 'The workspace' },
+  { src: '/studio-08.jpg', alt: 'Studio recording setup', label: 'The sound' },
 ]
+
 const active = ref(0)
 let timer
 const current = computed(() => slides[active.value])
