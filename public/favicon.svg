@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cascade Hills">
+  <rect width="64" height="64" rx="14" fill="#071923"/>
+  <path d="M7 34h6l3-5 4 12 4-23 5 31 5-22 4 13 3-6h3" fill="none" stroke="#0f94a2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 39c6-1 10-13 16-13 4 0 6 6 8 9" fill="none" stroke="#69d2d6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 41c5-1 9-7 14-7 3 0 4 2 6 4" fill="none" stroke="#ffb22e" stroke-width="3" stroke-linecap="round"/>
+</svg>
